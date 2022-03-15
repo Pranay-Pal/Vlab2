@@ -1,0 +1,105 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    border: 0px
+    
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width :auto;
+    height :100%;
+}
+.headpanel
+{
+  position: absolute;
+  display: flex;
+  height: 36px;
+  width: 100%;
+  border-width:0px;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  flex-direction: row;
+  top:0px;
+}
+.space
+{
+  flex-grow: 2;
+}
+.user_section
+{
+  display: flex;
+}
+.user_btn 
+  {
+  background-color: wheat;
+  height: 22px;
+  width: 100px;
+  border: 3px solid gray;
+  border-radius: 25px;
+  align-self: center;
+  margin-top: 2px;
+}
+.user_logo
+{
+  width:30px;
+  height: 30px;
+  align-self: center;
+}
+.bottompanel
+{
+  margin-top:30px;
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin-left: 0px;
+  background-color:silver;
+  bottom: 0px;
+  flex-direction: column;
+}
+.coffee
+{
+    
+    border : 4px wheat solid;
+    border-width: 3px;
+    width :150px;
+    border-radius : 100px;
+    height:20px;
+    padding :0px;
+    padding-top: 2px;
+    margin: 0px;
+    background-color:#FFCFA1;
+    margin-right: 15px;
+    margin-top: 8px;
+}
+p
+{
+    margin: 0px;
+    padding: 0px;
+    border: 0px solid;
+    text-align: center;
+}
+.credits
+{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.btptp
+{
+    display: flex;
+}
+.copyright
+{
+    margin-bottom: 15px;
+}
+.contents {
+  height: auto;
+  min-height:750px;
+}
+.smlspc
+{
+  width: 15px;
+}

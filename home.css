@@ -1,0 +1,46 @@
+body
+{
+  background-image: url(bgfront.png);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  border:0;    
+}
+.imageSlider {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top:60px;
+    height: 250px;
+    width: 95%;
+    background-color: black;
+    border-radius: 20px;
+    opacity: 60%;
+  }
+  
+  .midBar {
+    margin-top:50px;
+    height: Auto;
+    width: 100%;
+    background-color: white;
+  }
+  
+  .midText {
+    font-size: 30px;
+    text-align: center;
+    font-family: fantasy;
+  }
+  
+  .experiments {
+    margin-top: 50px;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    height: 250px;
+    width: 95%;
+    background-color: black;
+    border-radius: 20px;
+    opacity: 60%;
+  }
