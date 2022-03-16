@@ -1,0 +1,40 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+  background-image: url(manu.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  border:0;    
+}
+
+.items{
+    border: 1px solid white;
+    border-radius: 12px;
+}
+#exp{
+    margin: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: white;
+    position: absolute;
+    top: 3%;
+    left: 30%;
+}
+#manual{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+    
+    

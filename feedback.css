@@ -10,3 +10,45 @@ body
   padding: 0;
   border:0;    
 }
+
+.contents {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top:60px;
+  height: 250px;   
+  width: 95%;
+  background-color: rgba(49, 48, 48, 0.8);
+  border-radius: 20px;
+}
+
+.feedhead {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: rgb(48, 46, 46);
+  padding: 1%;
+}
+.form {
+  margin-top: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+  margin: 12px 0;
+  width: 40%;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 90%;
+  margin: 12px 0;
+  padding: 12px;
+  border-radius: 10px;
+}
